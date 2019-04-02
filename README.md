@@ -15,11 +15,11 @@ Options:<br/>
 
 - Optional arguments:<br/>
   * `-o OUTDIR, --outdir OUTDIR`<br/>
-                        Output file name. Default is current directory `./`<br/>
+                        Output file name. Must ends with a '/'. Default is current directory `./`<br/>
   
   * `-h, --help`
                         Show the help message and exit<br/>
 
 
-Usage example:
-python PhantomSpikesRemover.py -d ./infiles
+Usage example:<br/>
+`python PhantomSpikesRemover.py -d DataPoints.reformated.txt -r RateFile.txt -i ./infiles/ -o ./oufiles/`
